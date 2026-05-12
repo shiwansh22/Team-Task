@@ -140,15 +140,6 @@ export default function AuthPage() {
               {loading ? 'Please wait…' : mode === 'login' ? 'Sign In' : 'Create Account'}
             </button>
           </form>
-
-          {/* Demo hint */}
-          <div
-            className="mt-5 p-3 rounded-lg text-xs"
-            style={{ background: 'var(--bg3)', color: 'var(--text2)' }}
-          >
-            <p className="font-medium mb-1" style={{ color: 'var(--text)' }}>Demo hint</p>
-            <p>Create an Admin account first, then add projects and tasks.</p>
-          </div>
         </div>
       </div>
     </div>
